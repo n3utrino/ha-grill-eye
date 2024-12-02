@@ -1,23 +1,23 @@
 {
   "domain": "grill_eye",
   "name": "GrillEye Integration",
-  "codeowners": [
-    "@n3utrino"
-  ],
-  "requirements": [
-    "bleak"
-  ],
-  "dependencies": [
-    "bluetooth_adapters"
-  ],
-  "config_flow": false,
   "bluetooth": [
     {
       "local_name": "GrillEye*"
     }
   ],
+  "codeowners": [
+    "@n3utrino"
+  ],
+  "config_flow": false,
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
   "documentation": "https://github.com/n3utrino/ha-grill-eye",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/n3utrino/ha-grill-eye/issues",
+      "requirements": [
+    "bleak"
+  ],
   "version": "0.0.0"
 }
